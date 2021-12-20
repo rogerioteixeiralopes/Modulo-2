@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+h1 {
+   background-color:lightgray;
+   height: 300px;
+   width: 300px;
+/*   
+   border-width: 10px;
+   border-style: solid;
+   border-color: darkslategray;
+
+   Substituir as três linhas acima pela de baixo:
+
+   border: 10px solid darkslategray
+*/
+
+   border: 10px solid darkslategray;
+
+/*
+   padding-top: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+
+   Simplificação:
+  
+   padding: 10px;
+   ________________________________________________________________________________________________
+
+   padding-top: 10px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+
+   Simplificação:
+  
+   padding: 10px 20px;
+   ________________________________________________________________________________________________
+
+   padding-top: 10px;
+   padding-right: 20px;
+   padding-bottom: 5px;
+   padding-left: 20px;
+
+   Simplificação:
+  
+   padding: 10px 20px 5px 20px;
+   ________________________________________________________________________________________________
+*/
+
+   margin: 10px auto; 
+
+   outline-width: 5px;
+   outline-style: dashed;
+   outline-color: salmon;
+}
+
+a {
+   border-width: 10px;
+   border-style: double;
+   border-color: red;
+}
